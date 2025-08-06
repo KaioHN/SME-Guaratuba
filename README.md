@@ -1,1 +1,54 @@
-# SME-Guaratuba
+# 🌐 SME-Guaratuba — Portal Institucional
+
+Este é um site institucional da **Secretaria Municipal de Educação de Guaratuba**, desenvolvido com foco na apresentação clara de informações e na publicação de postagens personalizadas, tudo utilizando atualmente apenas **HTML, CSS e JavaScript puro**.
+
+O projeto é, além de um teste, totalmente estático, responsivo e pronto para ser adaptado conforme a demanda da instituição.
+
+---
+
+## ✨ Funcionalidades
+
+- 📄 Páginas: Home, Sobre, Portal da Cidade, Vagas e etc. 
+- 📰 Exibição dinâmica de notícias via injeção de dados no HTML
+- 📱 Design responsivo adaptado para dispositivos móveis
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+
+---
+
+## 📦 Como visualizar o projeto
+
+1. Clone ou baixe este repositório:
+```bash
+git clone https://github.com/KaioHN/SME-Guaratuba.git
+```
+
+2. Navegue até a pasta do projeto:
+```bash
+cd SME-Guaratuba
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+> 💡 Como é um projeto front-end estático, não é necessário rodar servidores ou instalar dependências.
+
+---
+
+## 🔧 Possibilidades futuras
+
+- Sistema de autenticação e banco de dados real
+- Upload direto de imagens e vídeos nas postagens
+- Painel administrativo para gerenciamento de conteúdo
+- Integração com ferramentas de analytics e SEO
+- Melhoria na acessibilidade e automação
+
+---
+
+Desenvolvido com 💻 por [KaioHN](https://github.com/KaioHN)
