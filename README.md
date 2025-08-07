@@ -8,7 +8,7 @@ O projeto é, além de um teste, totalmente estático, responsivo e pronto para 
 
 ## ✨ Funcionalidades
 
-- 📄 Páginas: Home, Sobre, Portal da Cidade, Vagas e etc. 
+- 📄 Páginas: Home, Notícias, Portal da Cidade, Vagas e etc. 
 - 📰 Exibição dinâmica de notícias via injeção de dados no HTML
 - 📱 Design responsivo adaptado para dispositivos móveis
 
@@ -37,16 +37,15 @@ cd SME-Guaratuba
 
 3. Abra o arquivo `index.html` no navegador.
 
-> 💡 Como é um projeto front-end estático, não é necessário rodar servidores ou instalar dependências.
+> 💡 Como ainda é um projeto front-end estático, não é necessário rodar servidores ou instalar dependências.
 
 ---
 
 ## 🔧 Possibilidades futuras
 
-- Sistema de autenticação e banco de dados real
-- Upload direto de imagens e vídeos nas postagens
+- Sistema de autenticação e banco de dados
+- Upload direto de imagens e vídeos para postagens
 - Painel administrativo para gerenciamento de conteúdo
-- Integração com ferramentas de analytics e SEO
 - Melhoria na acessibilidade e automação
 
 ---

@@ -37,9 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    transition: height 0.2s ease, padding 0.2s ease;
-    /*Codigo para efeito suave de scroll*/
+    transition: height 0.2s ease, padding 0.2s ease; /*Codigo para efeito suave de scroll*/
 
 }
 
@@ -112,13 +110,11 @@ h1 {
     transition: background-color 0.3s;
 }
 
-.btn-primary:hover {
-    background-color: rgb(0, 2, 121);
-}
 
 .container {
     display: flex;
     flex-direction: column;
+    text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #008000;
@@ -142,6 +138,8 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    text-align: center;
+    align-items: center;
 }
 
 .card-body {
@@ -151,10 +149,66 @@ h1 {
 }
 
 .imagem-card {
-    width: 100%;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
+
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-alert-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+.custom-alert-content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.custom-alert-content button {
+  padding: 10px 20px;
+  background-color: #007b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.button:hover {
+    background-color: rgb(0, 2, 121);
+}
+
 
 
 footer {
