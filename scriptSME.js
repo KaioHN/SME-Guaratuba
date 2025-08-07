@@ -1,5 +1,5 @@
 window.onload = function showAlert() {
-  document.getElementById("alertMessage").innerText = "Seja Bem-vindo ao portal de Guaratuba. ⚠️ Atenção: Esse site está propenso a mudanças";
+  document.getElementById("alertMessage").innerText = "𝗦𝗲𝗷𝗮 𝗕𝗲𝗺-𝘃𝗶𝗻𝗱𝗼 𝗮𝗼 𝗽𝗼𝗿𝘁𝗮𝗹 𝗱𝗲 𝗚𝘂𝗮𝗿𝗮𝘁𝘂𝗯𝗮. ⚠️ Atenção: Esse site está propenso a mudanças";
   document.getElementById("customAlert").style.display = "flex";
 }
 
