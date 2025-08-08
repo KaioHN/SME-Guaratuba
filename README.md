@@ -23,23 +23,6 @@ O projeto é, além de um teste, totalmente estático, responsivo e pronto para 
 
 ---
 
-## 📦 Como visualizar o projeto
-
-1. Clone ou baixe este repositório:
-```bash
-git clone https://github.com/KaioHN/SME-Guaratuba.git
-```
-
-2. Navegue até a pasta do projeto:
-```bash
-cd SME-Guaratuba
-```
-
-3. Abra o arquivo `index.html` no navegador.
-
-> 💡 Como ainda é um projeto front-end estático, não é necessário rodar servidores ou instalar dependências.
-
----
 
 ## 🔧 Possibilidades futuras
 
