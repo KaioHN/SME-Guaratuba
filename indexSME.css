@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: height 0.2s ease, padding 0.2s ease; /*Codigo para efeito suave de scroll*/
+    transition: height 0.4s ease, padding 0.4s ease; /*Codigo para efeito suave de scroll*/
 
 }
 
@@ -57,7 +57,7 @@ body {
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(0, 121, 16);
-    transition: font-size 0.2s ease;
+    transition: font-size 0.4s ease;
 }
 
 /* Efeito de transição */
@@ -150,8 +150,8 @@ h1 {
 }
 
 .imagem-card {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     object-fit: cover;
 }
 
