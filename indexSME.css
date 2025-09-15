@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: height 0.4s ease, padding 0.4s ease; /*Codigo para efeito suave de scroll*/
+    transition: height 0.2s ease, padding 0.2s ease; /*Codigo para efeito suave de scroll*/
 
 }
 
@@ -89,7 +89,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 200px; /* Compensa o header fixo */
+  margin-top: 50px; /* Compensa o header fixo */
 }
 
 h1 {
@@ -138,7 +138,7 @@ h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
     text-align: center;
     align-items: center;
 }
