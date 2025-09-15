@@ -89,7 +89,6 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 50px; /* Compensa o header fixo */
 }
 
 h1 {
@@ -98,7 +97,7 @@ h1 {
 
 
 .carousel {
-    margin-top: 130px;
+    margin-top: 110px;
     margin-bottom: 30px;
 }
 
@@ -154,6 +153,8 @@ h1 {
     height: 270px;
     object-fit: cover;
 }
+
+
 
 .custom-alert {
   display: none;
