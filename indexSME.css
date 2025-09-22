@@ -7,8 +7,7 @@
 
 html,
 body {
-    height: 100%;
-    margin: 0;
+    height: 200%;
     display: flex;
     flex-direction: column;
     font-family: system-ui, sans-serif;
@@ -27,13 +26,11 @@ body {
 
 /*Alteração do header (Imagem e Texto)*/
 .header-image {
-    background-image: url('https://www.redesulhospedagens.com.br/sistema/admin/img/cidades/1920x498/grauatubadestaque.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
+    height: 300px;
     position: fixed;
     width: 100vw;
     z-index: 1000;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,21 +45,9 @@ body {
     background: rgba(0, 0, 0, 0.4);
 }
 
-.header-text {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(0, 121, 16);
-    transition: font-size 0.4s ease;
-}
-
 /* Efeito de transição */
 .header-shrink {
-    height: 150px;
+    height: 200px;
     /*valor compacto */
     font-size: 15px;
 }
@@ -97,7 +82,7 @@ h1 {
 
 
 .carousel {
-    margin-top: 110px;
+    margin-top: 200px;
     margin-bottom: 30px;
 }
 
